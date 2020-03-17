@@ -1,0 +1,89 @@
+/*color and fonts*/
+body {
+background: rgb(230, 230, 230);
+color: rgb (50, 50, 50);
+font-family: 'Josefin Slab', serif;
+font-size: 17px;
+width: 700px;
+margin: 40px auto;
+}
+h1, h2, h3{
+  font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+  color: #512B58;
+  font-size: 32px;
+}
+h2{
+  color: #2A7886);
+  font-size: 24px;
+  font-weight: lighter;
+}
+a {
+  text-decoration: none;
+  color: #79BAC1;
+ }
+a:hover {
+  color: #8AEA92;
+ }
+.container {
+ width: 700px;
+ margin: 40px auto;
+}
+.white-boxes {
+  background-color: white;
+  padding: 60px;
+  margin: 50px 0px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0,1);
+  border-radius: 6px;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #79BAC1;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+.btn-blue:hover {
+  background-color: #512B58;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li{
+  display: inline;
+  padding: 10px;
+}
+.list-inline i{
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: #512B58;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
